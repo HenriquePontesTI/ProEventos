@@ -32,6 +32,7 @@ namespace api
           context => context.UseSqlite(Configuration.GetConnectionString("Default"))
       );
       services.AddControllers();
+      services.AddCors();
       services.AddSwaggerGen(c =>
       {
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "api", Version = "v1" });
@@ -53,6 +54,10 @@ namespace api
       app.UseRouting();
 
       app.UseAuthorization();
+
+      app.UseCors(cors => cors.AllowAnyOrigin()
+                              .AllowAnyMethod()
+                              .AllowAnyHeader());
 
       app.UseEndpoints(endpoints =>
       {

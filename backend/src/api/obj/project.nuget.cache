@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dYyX0gfQiChDi3XzGDOwbuIO8NxjYphSYl88V/VQDEQkvLIiZVfk3D5uifcoBG/l08CJ6BEaigM9a4cKquwzHg==",
+  "dgSpecHash": "tQdeJtSHdU6aKaH8x5JzlXGL/gDbld5z3dx1Co9P95fSUqqf00vD3X5uhNGFUVXq7hmOyhK1g41gsjy+ERdT8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\henrique.de.pontes\\Downloads\\Arquivos\\ProEventos\\backend\\src\\api\\api.csproj",
+  "projectFilePath": "C:\\Projetos\\Henrique\\ProEventos\\backend\\src\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\henrique.de.pontes\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\henrique.de.pontes\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
